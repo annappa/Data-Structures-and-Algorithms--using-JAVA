@@ -9,3 +9,6 @@
 
 #### How to solve coding problems
 [https://www.youtube.com/watch?v=XKu_SEDAykw](https://www.youtube.com/watch?v=XKu_SEDAykw)
+
+## MD5 Hash Generator
+http://www.miraclesalad.com/webtools/md5.php
