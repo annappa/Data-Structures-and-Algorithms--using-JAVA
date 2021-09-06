@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/BigO/BigO.iml" filepath="$PROJECT_DIR$/BigO/BigO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms--using-JAVA.iml" filepath="$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms--using-JAVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hashtables/hashtables.iml" filepath="$PROJECT_DIR$/hashtables/hashtables.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stacks/stacks.iml" filepath="$PROJECT_DIR$/stacks/stacks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trees/trees.iml" filepath="$PROJECT_DIR$/trees/trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/Queues/Queues.iml" filepath="$PROJECT_DIR$/DataStructures/Queues/Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/arrays/arrays.iml" filepath="$PROJECT_DIR$/DataStructures/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/graph/graph.iml" filepath="$PROJECT_DIR$/DataStructures/graph/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/hashtables/hashtables.iml" filepath="$PROJECT_DIR$/DataStructures/hashtables/hashtables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/DataStructures/linkedlist/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/recursion/recursion.iml" filepath="$PROJECT_DIR$/Algorithms/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/stacks/stacks.iml" filepath="$PROJECT_DIR$/DataStructures/stacks/stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/trees/trees.iml" filepath="$PROJECT_DIR$/DataStructures/trees/trees.iml" />
     </modules>
   </component>
 </project>

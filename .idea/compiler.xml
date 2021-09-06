@@ -7,16 +7,60 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hashtables" />
-        <module name="arrays" />
-        <module name="linkedlist" />
+        <module name="recursion" />
+        <module name="DataStructures" />
         <module name="Queues" />
-        <module name="graph" />
         <module name="BigO" />
-        <module name="stacks" />
+      </profile>
+      <profile name="Annotation profile for trees" enabled="true">
+        <sourceOutputDir name="../../trees/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../trees/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="trees" />
       </profile>
+      <profile name="Annotation profile for arrays" enabled="true">
+        <sourceOutputDir name="../../arrays/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../arrays/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="arrays" />
+      </profile>
+      <profile name="Annotation profile for graph" enabled="true">
+        <sourceOutputDir name="../../graph/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../graph/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="graph" />
+      </profile>
+      <profile name="Annotation profile for hashtables" enabled="true">
+        <sourceOutputDir name="../../hashtables/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../hashtables/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hashtables" />
+      </profile>
+      <profile name="Annotation profile for linkedlist" enabled="true">
+        <sourceOutputDir name="../../linkedlist/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../linkedlist/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="linkedlist" />
+      </profile>
+      <profile name="Annotation profile for stacks-queues" enabled="true">
+        <sourceOutputDir name="../../stacks/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../stacks/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stacks" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="Algorithms" target="1.5" />
+      <module name="arrays" target="1.5" />
+      <module name="BigO" target="1.5" />
+      <module name="DataStructures" target="1.5" />
+      <module name="graph" target="1.5" />
+      <module name="hashtables" target="1.5" />
+      <module name="linkedlist" target="1.5" />
+      <module name="Queues" target="1.5" />
+      <module name="recursion" target="1.5" />
+      <module name="stacks" target="1.5" />
+      <module name="trees" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
