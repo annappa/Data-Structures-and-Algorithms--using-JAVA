@@ -11,16 +11,12 @@
         <module name="arrays" />
         <module name="linkedlist" />
         <module name="Queues" />
+        <module name="graph" />
         <module name="BigO" />
+        <module name="stacks" />
+        <module name="trees" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="arrays" target="8" />
-      <module name="BigO" target="8" />
-      <module name="hashtables" target="8" />
-      <module name="linkedlist" target="8" />
-      <module name="Queues" target="8" />
-      <module name="stacks" target="8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

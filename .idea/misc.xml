@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/stacks-queues/pom.xml" />
         <option value="$PROJECT_DIR$/Queues/pom.xml" />
         <option value="$PROJECT_DIR$/stacks/pom.xml" />
+        <option value="$PROJECT_DIR$/trees/pom.xml" />
+        <option value="$PROJECT_DIR$/graph/pom.xml" />
       </list>
     </option>
   </component>
