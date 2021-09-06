@@ -82,6 +82,8 @@ public class LinkedList {
         }
     }
 
+    //Aproach1
+    //Space complexity -> O(n) as we are creating a new linkedlist here
     public LinkedList reverse(LinkedList linkedList) {
         LinkedList newList = new LinkedList(linkedList.head.value);
         Node current = linkedList.head;
@@ -96,6 +98,7 @@ public class LinkedList {
     }
 
     /*
+    //Aproach2:
      public void reverse() {
         MySinglyLinkedNode first = head;
         tail = head;

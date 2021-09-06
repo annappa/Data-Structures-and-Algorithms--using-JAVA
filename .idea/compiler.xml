@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="arrays" />
         <module name="hashtables" />
+        <module name="arrays" />
         <module name="linkedlist" />
+        <module name="Queues" />
         <module name="BigO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="arrays" target="1.5" />
-      <module name="BigO" target="1.5" />
-      <module name="hashtables" target="1.5" />
-      <module name="linkedlist" target="1.5" />
+      <module name="arrays" target="8" />
+      <module name="BigO" target="8" />
+      <module name="hashtables" target="8" />
+      <module name="linkedlist" target="8" />
+      <module name="Queues" target="8" />
+      <module name="stacks" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
