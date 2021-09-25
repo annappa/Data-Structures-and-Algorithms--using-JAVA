@@ -8,10 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/Queues/Queues.iml" filepath="$PROJECT_DIR$/DataStructures/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/arrays/arrays.iml" filepath="$PROJECT_DIR$/DataStructures/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-programming/dynamic-programming.iml" filepath="$PROJECT_DIR$/dynamic-programming/dynamic-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/graph/graph.iml" filepath="$PROJECT_DIR$/DataStructures/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/hashtables/hashtables.iml" filepath="$PROJECT_DIR$/DataStructures/hashtables/hashtables.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/DataStructures/linkedlist/linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms/recursion/recursion.iml" filepath="$PROJECT_DIR$/Algorithms/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/searching/searching.iml" filepath="$PROJECT_DIR$/Algorithms/searching/searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/sorting/sorting.iml" filepath="$PROJECT_DIR$/Algorithms/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/stacks/stacks.iml" filepath="$PROJECT_DIR$/DataStructures/stacks/stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures/trees/trees.iml" filepath="$PROJECT_DIR$/DataStructures/trees/trees.iml" />
     </modules>

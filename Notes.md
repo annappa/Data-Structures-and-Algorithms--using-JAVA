@@ -12,3 +12,8 @@
 
 ## MD5 Hash Generator
 http://www.miraclesalad.com/webtools/md5.php
+
+## Notes
+[LetsAlgoTogether](https://github.com/ojasmaru/LetsAlgoTogether)
+
+[awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
