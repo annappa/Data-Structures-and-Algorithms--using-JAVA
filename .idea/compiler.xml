@@ -11,18 +11,18 @@
         <module name="hashtables" />
         <module name="arrays" />
         <module name="linkedlist" />
-        <module name="trees" />
+        <module name="sorting" />
         <module name="stacks" />
         <module name="graph" />
         <module name="dynamic-programming" />
         <module name="BigO" />
         <module name="searching" />
-        <module name="sorting" />
+        <module name="trees" />
         <module name="Queues" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="Algorithms" target="8" />
+      <module name="Algorithms" target="1.5" />
       <module name="arrays" target="1.5" />
       <module name="BigO" target="1.5" />
       <module name="DataStructures" target="1.5" />
@@ -33,7 +33,7 @@
       <module name="Queues" target="1.5" />
       <module name="recursion" target="1.5" />
       <module name="searching" target="1.5" />
-      <module name="sorting" target="8" />
+      <module name="sorting" target="1.5" />
       <module name="stacks" target="1.5" />
       <module name="trees" target="1.5" />
     </bytecodeTargetLevel>
