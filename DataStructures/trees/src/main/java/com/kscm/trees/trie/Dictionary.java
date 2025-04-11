@@ -25,7 +25,10 @@ dict = [Hi, HiTech, HiTechCity, Hello, HelloWorld, HiTechLab]
  */
 
 /*
- Solution: We can use a Trie datastructure to solve this problem. The idea is to insert all uppercase characters of each word in the CamelCase dictionary into a Trie. In contrast, the complete word is stored in a container associated with the corresponding leaf node. After the complete dictionary is processed, traverse the Trie and find all words that match the given pattern.
+ Solution: We can use a Trie datastructure to solve this problem.
+ The idea is to insert all uppercase characters of each word in the CamelCase dictionary into a Trie.
+ In contrast, the complete word is stored in a container associated with the corresponding leaf node.
+ After the complete dictionary is processed, traverse the Trie and find all words that match the given pattern.
  */
 
 // A class to store a Trie node
@@ -38,7 +41,7 @@ class TrieNode
     boolean isLeaf = false;
 
     // collection to store a complete list of words in the leaf node
-    Set<String> word = new HashSet<>();
+    Set<String> matchedWords = new HashSet<>();
 }
 
 public class Dictionary
@@ -69,7 +72,7 @@ public class Dictionary
         curr.isLeaf = true;
 
         // push the current word into the set associated with a leaf node
-        (curr.word).add(word);
+        (curr.matchedWords).add(word);
 
         return head;
     }
@@ -84,7 +87,7 @@ public class Dictionary
 
         // if the current node is a leaf, print all words associated with it
         if (root.isLeaf) {
-            System.out.println(root.word);
+            System.out.println(root.matchedWords);
         }
 
         // recur for all children of the root node

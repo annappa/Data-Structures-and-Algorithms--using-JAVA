@@ -9,14 +9,16 @@ public class ReverseString {
     private String reverse(String string) {
         String temp = "";
         for (int i = string.length() - 1; i >= 0; i--) {
-            temp += (string.charAt(i));
+            //temp += (string.charAt(i)); // worst performance this way
+            temp += String.valueOf(string.charAt(i));
         }
         return temp;
     }
 
     //reverse method 2
     //String is immutable whereas StringBuffer and StringBuilder are mutable classes.
-    //StringBuffer is thread-safe and synchronized whereas StringBuilder is not. That's why StringBuilder is faster than StringBuffer.
+    //StringBuffer is thread-safe and synchronized whereas StringBuilder is not.
+    // That's why StringBuilder is faster than StringBuffer.
     private String reverse2(String string) {
         StringBuilder temp = new StringBuilder();
         for (int i = string.length() - 1; i >= 0; i--) {

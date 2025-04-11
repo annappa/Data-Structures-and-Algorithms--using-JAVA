@@ -2,6 +2,7 @@ package com.kscm.hashtables;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Hashtable;
 
 //Google Question
 //Given an array = [2,5,1,2,3,5,1,2,4]: It should return 2
@@ -54,10 +55,22 @@ public class FirstRecurringCharacter {
         System.out.println(getFirstRecurringObjectBetter(arr2));
 
         System.out.println(getFirstRecurringObjectBetter(arr3));
+        System.out.println("practice" + getFirstRecurringPractice(arr4));
 
         System.out.println(getFirstRecurringObjectBetter(arr4)); //return 5 because the pairs are before 2,2
 
         //System.out.println(getFirstRecurringObjectBetter2(arr));
         //System.out.println(getFirstRecurringObject(arr));
+    }
+
+    private static Object getFirstRecurringPractice(Object[] arr) {
+        HashSet<Object> map = new HashSet<Object>();
+        for(Object obj: arr) {
+            if(map.contains(obj))
+                return obj;
+            else
+                map.add(obj);
+        }
+        return null;
     }
 }

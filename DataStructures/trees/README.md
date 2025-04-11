@@ -11,6 +11,8 @@
 
 [Binary Heap - Visualgo](https://visualgo.net/en/heap?slide=1)
 
+[Java Priority Queue Tutorial with Examples](https://www.callicoder.com/java-priority-queue/)
+
 ## What is a binary search tree?
 - It will have one root node
 - Each node contains zero or max 2 child nodes
